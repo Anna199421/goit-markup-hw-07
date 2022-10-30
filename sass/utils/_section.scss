@@ -1,0 +1,34 @@
+.subject {
+    padding: 94px 0;
+}
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    & {
+      background-color: #2F303A;
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/img11.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding-top: 200px;
+         padding-bottom: 200px;
+         text-align: center;
+         max-width: 1600px;
+     }
+  }
+  .hidden {
+    padding-top: 94px;
+    display: flex;
+  }
+  .img1 {
+    padding-top: 94px;
+   padding-bottom: 94px;
+    }
+    .team-section {
+        padding: 94px 0;
+        background: #F5F4FA;
+    }
+    .group {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }

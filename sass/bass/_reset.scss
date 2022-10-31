@@ -1,4 +1,4 @@
-.current::after {
+.menu__current::after {
     content: "";
     display: block;
     width: 100%;
@@ -6,10 +6,10 @@
     background-color: var(--main-color2);
     position: absolute;
     border-radius: 2px;
-    bottom: -1px;
+    bottom: -32px;
     left: 0;
 } 
-.navigation_logo, .logo-header {
+.navigation__logo, .logo-header {
     font-weight: 700;
 font-size: 26px;
 line-height: 1.19;

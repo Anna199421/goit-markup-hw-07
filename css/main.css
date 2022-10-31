@@ -47,7 +47,7 @@ button {
   display: flex;
 }
 
-.header_container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -92,7 +92,7 @@ button {
   padding-bottom: 94px;
 }
 
-.menu_item {
+.menu__item {
   position: relative;
   display: flex;
 }
@@ -102,7 +102,7 @@ button {
   align-items: center;
 }
 
-.header-link, .menu_mail, .menu_tel {
+.header-link, .menu__mail, .menu__tel {
   padding: 32px 0;
   display: block;
   transition-duration: 250ms;
@@ -129,7 +129,7 @@ button {
   display: flex;
 }
 
-.img__item {
+.img1__item {
   position: relative;
 }
 
@@ -154,7 +154,7 @@ button {
   overflow: hidden;
 }
 
-.img__list {
+.img1__list {
   display: flex;
   gap: 30px;
 }
@@ -300,7 +300,7 @@ button {
   color: var(--main-color2);
 }
 
-.navigation_logo {
+.navigation__logo {
   color: var(--main-color2);
 }
 
@@ -309,17 +309,17 @@ button {
   margin-right: 93px;
 }
 
-.menu_tel, .menu_mail {
+.menu__tel, .menu__mail {
   color: var(--main-color4);
   display: flex;
   align-items: center;
 }
 
-.header-link:hover, .menu_mail:hover, .menu_tel:hover, .header-link:focus, .menu_mail:focus, .menu_tel:focus, .link1:focus, .link1:hover, .menu_header:focus, .menu_-header:hover {
+.header-link:hover, .menu__mail:hover, .menu__tel:hover, .header-link:focus, .menu__mail:focus, .menu__tel:focus, .link1:focus, .link1:hover, .menu__header:focus, .menu__header:hover {
   color: var(--main-color2);
 }
 
-.menu_header {
+.menu__header {
   fill: currentColor;
   margin-right: 10px;
 }
@@ -491,7 +491,7 @@ button {
   font-style: bold;
 }
 
-.img__title {
+.img1__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 16;
@@ -503,7 +503,7 @@ button {
   text-align: center;
 }
 
-.current::after {
+.menu__current::after {
   content: "";
   display: block;
   width: 100%;
@@ -511,11 +511,11 @@ button {
   background-color: var(--main-color2);
   position: absolute;
   border-radius: 2px;
-  bottom: -1px;
+  bottom: -32px;
   left: 0;
 }
 
-.navigation_logo, .logo-header {
+.navigation__logo, .logo-header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;

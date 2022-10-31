@@ -1,5 +1,5 @@
 
-.menu_item {
+.menu__item {
     position: relative;
     display: flex;
 }
@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
  }
- .header-link, .menu_mail, .menu_tel {
+ .header-link, .menu__mail, .menu__tel {
     padding: 32px 0;
     display: block;
     transition-duration: 250ms;
@@ -30,7 +30,7 @@ gap: 8px;
         .img2 {
            display: flex;
         }
-        .img__item {
+        .img1__item {
             position: relative;
          }
          .img-projects {
@@ -50,7 +50,7 @@ gap: 8px;
             position: relative;
             overflow: hidden;
          }
-         .img__list {
+         .img1__list {
             display: flex;
             gap: 30px;
         }

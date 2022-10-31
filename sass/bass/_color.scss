@@ -13,22 +13,22 @@
     text-decoration: none;
     color: var(--main-color2);
  }
- .navigation_logo {
+ .navigation__logo {
     color: var(--main-color2);
     }
     .logo-header {
     color:#000000;
     margin-right: 93px;
     }
-    .menu_tel, .menu_mail {
+    .menu__tel, .menu__mail {
         color: var(--main-color4);
         display: flex;
         align-items: center;
     }    
-    .header-link:hover, .menu_mail:hover, .menu_tel:hover, .header-link:focus, .menu_mail:focus, .menu_tel:focus, .link1:focus, .link1:hover, .menu_header:focus, .menu_-header:hover {
+    .header-link:hover, .menu__mail:hover, .menu__tel:hover, .header-link:focus, .menu__mail:focus, .menu__tel:focus, .link1:focus, .link1:hover, .menu__header:focus, .menu__header:hover {
         color: var(--main-color2);
     } 
-    .menu_header {
+    .menu__header {
         fill: currentColor;
         margin-right: 10px;
     }
